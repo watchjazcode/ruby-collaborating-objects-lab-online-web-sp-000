@@ -44,8 +44,7 @@ class Artist
   end  
   
   def self.create_by_name(name)
-    artist = self.new
-    artist.name = name
+    artist = self.new(name)
     @@all << artist
     return artist
   end
