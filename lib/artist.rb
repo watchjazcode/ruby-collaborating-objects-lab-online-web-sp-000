@@ -24,7 +24,7 @@ class Artist
   def songs 
     Song.all.select {|song| song.artist == self}
   end
-  #
+  #if song.artist is equal to instance inside, we should pick it out from list
   
   def add_song(song)
     song.artist = self
