@@ -38,6 +38,7 @@ class Artist
       create artist with that name
       
     end 
+  end
   
 end 
 
