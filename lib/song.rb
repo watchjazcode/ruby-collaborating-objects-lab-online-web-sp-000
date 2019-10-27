@@ -22,7 +22,7 @@ class Song
   end 
   
   def self.new_by_filename(filename)
-    
+    'Michael Jackson - Black or White - pop.mp3'
     name = filename.split(" - ")[1]
     song = self.new(name)
     song
