@@ -31,16 +31,13 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
-    if there is an artist with the name given 
-      return artist with name
-      
+    found = find_by_name(name)
+    if found == nil
+      create_by_name(name)
     else 
-      create artist with that name
-      
+      return found
     end 
   end
-  
-  
   
   
   
