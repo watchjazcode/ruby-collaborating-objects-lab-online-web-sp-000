@@ -49,6 +49,7 @@ class Artist
     return artist
   end
   
+  def 
   
 end 
 
