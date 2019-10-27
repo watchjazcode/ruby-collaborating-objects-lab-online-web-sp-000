@@ -43,7 +43,12 @@ class Artist
     @@all.find{|artist| artist.name == name}
   end  
   
-  
+  def self.create_by_name(name)
+    artist = self.new
+    artist.name = name
+    @@all << artist
+    return artist
+  end
   
   
 end 
