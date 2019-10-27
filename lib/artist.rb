@@ -8,7 +8,6 @@ class Artist
   # instance method 
   def initialize(name)
     @name = name 
-    save
   end
   
   def save
